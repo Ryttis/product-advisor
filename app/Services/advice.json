@@ -1,0 +1,53 @@
+{
+"city": "Vilnius",
+"recommendations": [
+    {
+        "weather_forecast": "rain",
+        "date": "2020-02-14",
+        "products": [
+            {
+                "sku": "UM-1",
+                "name": "Black Umbrella",
+                "price": 10.11
+            },
+            {
+                "sku": "HAT-15",
+                "name": "Pink Hat",
+                "price": 6.07
+            }
+        ]
+    },
+    {
+        "weather_forecast": "sunny",
+        "date": "2020-02-15",
+        "products": [
+            {
+                "name": "Synergistic Leather Hat",
+                "sku": "UM-13",
+                "price": "94.68"
+            },
+            {
+                "name": "Heavy Duty Iron Hat",
+                "sku": "UM-18",
+                "price": "10.76"
+            }
+        ]
+    },
+    {
+        "weather_forecast": "rain",
+        "date": "2020-02-14",
+        "products": [
+            {
+                "sku": "UM-1",
+                "name": "Black Umbrella",
+                "price": 10.11
+            },
+            {
+                "sku": "HAT-15",
+                "name": "Pink Hat",
+                "price": 6.07
+            }
+        ]
+    }
+]
+}
