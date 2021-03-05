@@ -1,10 +1,14 @@
-### Service, which returns product recommendations depending on the weather forecast
+# PRODUCT-ADVISOR 
+## Service, which returns product recommendations depending on the weather forecast
+### Used technologies:
+
+*** Laravel, Php 7.3, Mysql, Guzzle, fzaninotto/faker, sail.
+
+### Instructions for application running using docker-compose.yml:
 
 * clone repository
 
 * ./vendor/bin/sail up -d
-
-* ./vendor/bin/sail composer install
 
 * ./vendor/bin/sail artisan migrate
 

@@ -14,6 +14,6 @@
    
 </head>
 <body>
-    <h5>Please enter url -> example:/api/products/`place name`</h5>
+    <h6>Please enter url -> example: localhost/api/recommended/products/"place name"</h6>
 </body>
 </html>
