@@ -12,7 +12,7 @@
 
 * ./vendor/bin/sail artisan migrate
 
-* ./vendor/bin/sail artisan ad:seed
+* ./vendor/bin/sail artisan db:seed
 
 * On Your browser adress bar run application on localhost. 
 
