@@ -15,4 +15,5 @@ use App\Http\Controllers\ProductController;
 */
 
 
-Route::get('products/{product}', [ProductController::class, 'show']);
+Route::get('products/recommended/{place}', [ProductController::class, 'show']);
+Route::get('products', [ProductController::class, 'index']);

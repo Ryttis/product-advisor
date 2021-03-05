@@ -26,7 +26,7 @@ class MeteoService
         try {
             $res = $client->request('GET', $url);
         } catch (ClientException $e) {
-            echo $e->getResponse()->getStatusCode();
+            echo 'Error 406: Given place not in forecast service.' ;
             exit;
         }
 
@@ -34,7 +34,7 @@ class MeteoService
         $responseArray = json_decode($response, true);
         $forecast = collect($responseArray);
 
-        Cache::store('redis')->put($place, $forecast, 300);
+        Cache::store('file')->put($place, $forecast, 300);
 
         return $forecast;
     }
